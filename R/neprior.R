@@ -21,7 +21,7 @@
 #' @examples
 #' norm.kernel <- function(x) {exp(- (x - 2)^2 / (2 * 3^2))} # prior: N(2,3)
 #' neprior(function(x) x^2, g = norm.kernel, lower = -Inf, upper = Inf) # E[X^2] = 9 + 2^2 = 13
-
+#' @export
 neprior <- function(f = function(x){x}, g = function(x){1}, lower = -Inf, upper = Inf, ...){
     ## define multiplying function.
     "%*f%" <- function(x, y) {
