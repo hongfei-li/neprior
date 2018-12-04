@@ -1,0 +1,12 @@
+Package: neprior
+Type: Package
+Title: Numeric Expectation for given Prior
+Version: 0.1.0
+Author: Hongfei Li
+Maintainer: Hongfei Li <hongfei.uconnstat@gmail.com>
+Description: omitted
+License: SF-462
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  stats
